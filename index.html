@@ -109,12 +109,12 @@ form.addEventListener('submit', async (e) => {
   ctx.drawImage(bgImage, 0, 0);
 
   // Teks nomor HP
-  const fontSize = Math.floor(canvas.width * 0.055);
+  const fontSize = Math.floor(canvas.width * 0.040);
   ctx.font = `bold ${fontSize}px Arial`;
-  ctx.fillStyle = '#003399';
+  ctx.fillStyle = '#000000';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(phone, canvas.width * 0.550, canvas.height * 0.893);
+  ctx.fillText(phone, canvas.width * 0.640, canvas.height * 0.878);
 
   // Tampilkan hasil dan tombol
   canvas.style.display = 'block';
